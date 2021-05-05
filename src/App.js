@@ -4,6 +4,7 @@ import HR from "./components/HorizontalRule";
 import Effect from "./components/Effect";
 import Context from "./components/Context";
 import Ref from "./components/Ref";
+import Reducer from "./components/Reducer";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
       <Context />
       <HR />
       <Ref />
+      <HR />
+      <Reducer />
       <HR />
     </>
   );
