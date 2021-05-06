@@ -8,6 +8,7 @@ import Reducer from "./components/Reducer";
 import Memo from "./components/Memo";
 import Callback from "./components/Callback";
 import Layout from "./components/Layout";
+import ImperativeHandle from "./components/ImperativeHandle";
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
       <Callback />
       <HR />
       <Layout />
+      <HR />
+      <ImperativeHandle />
       <HR />
     </div>
   );
