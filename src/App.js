@@ -5,6 +5,7 @@ import Effect from "./components/Effect";
 import Context from "./components/Context";
 import Ref from "./components/Ref";
 import Reducer from "./components/Reducer";
+import Memo from "./components/Memo";
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Ref />
       <HR />
       <Reducer />
+      <HR />
+      <Memo />
       <HR />
     </>
   );
