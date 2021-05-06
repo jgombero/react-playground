@@ -7,6 +7,7 @@ import Ref from "./components/Ref";
 import Reducer from "./components/Reducer";
 import Memo from "./components/Memo";
 import Callback from "./components/Callback";
+import Layout from "./components/Layout";
 
 function App() {
   return (
@@ -32,6 +33,8 @@ function App() {
       <Memo />
       <HR />
       <Callback />
+      <HR />
+      <Layout />
       <HR />
     </div>
   );
