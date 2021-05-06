@@ -32,7 +32,8 @@ const CallbackComponent = () => {
       <button type="button" onClick={() => setCount(count + 1)}>
         current count: {count}
       </button>
-      <ExpensiveComputationComponent compute={useCallback(fibonacci, [fibonacci])} count={count} />
+      {/* eslint-disable-next-line */}
+      <ExpensiveComputationComponent compute={useCallback(fibonacci, [])} count={count} />
     </div>
   );
 };
