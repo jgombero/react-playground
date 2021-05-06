@@ -10,7 +10,15 @@ import Callback from "./components/Callback";
 
 function App() {
   return (
-    <>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "center",
+        alignItems: "center",
+        textAlign: "center",
+      }}
+    >
       <State />
       <HR />
       <Effect />
@@ -25,7 +33,7 @@ function App() {
       <HR />
       <Callback />
       <HR />
-    </>
+    </div>
   );
 }
 
