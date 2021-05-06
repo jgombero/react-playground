@@ -8,7 +8,7 @@ const LayoutEffectComponent = () => {
   useLayoutEffect(() => {
     setWidth(el.current.clientWidth);
     setHeight(el.current.clientHeight);
-  });
+  }, [width, height]);
 
   return (
     <div>
