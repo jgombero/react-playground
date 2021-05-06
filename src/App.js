@@ -6,6 +6,7 @@ import Context from "./components/Context";
 import Ref from "./components/Ref";
 import Reducer from "./components/Reducer";
 import Memo from "./components/Memo";
+import Callback from "./components/Callback";
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <Reducer />
       <HR />
       <Memo />
+      <HR />
+      <Callback />
       <HR />
     </>
   );
