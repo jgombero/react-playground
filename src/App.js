@@ -9,6 +9,7 @@ import Memo from "./components/Memo";
 import Callback from "./components/Callback";
 import Layout from "./components/Layout";
 import ImperativeHandle from "./components/ImperativeHandle";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         textAlign: "center",
       }}
     >
+      <NavBar />
       <State />
       <HR />
       <Effect />
