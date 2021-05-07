@@ -9,19 +9,11 @@ import Memo from "./Memo";
 import Callback from "./Callback";
 import Layout from "./Layout";
 import ImperativeHandle from "./ImperativeHandle";
-import { css } from "@emotion/react";
+import styled from "@emotion/styled";
 
 const Examples = () => {
   return (
-    <div
-      css={css`
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-      `}
-    >
+    <Div>
       <State />
       <HR />
       <Effect />
@@ -40,8 +32,16 @@ const Examples = () => {
       <HR />
       <ImperativeHandle />
       <HR />
-    </div>
+    </Div>
   );
 };
+
+const Div = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+`;
 
 export default Examples;
