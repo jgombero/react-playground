@@ -23,7 +23,24 @@ const NavBar = () => {
         justify-content: space-between;
       `}
     >
-      <Link to="/">Home</Link>
+      <div>
+        <Link
+          css={css`
+            padding: 15px;
+          `}
+          to="/"
+        >
+          Home
+        </Link>
+        <Link
+          css={css`
+            padding: 15px;
+          `}
+          to="examples"
+        >
+          Examples
+        </Link>
+      </div>
       <span
         css={css`
           font-size: 60px;
